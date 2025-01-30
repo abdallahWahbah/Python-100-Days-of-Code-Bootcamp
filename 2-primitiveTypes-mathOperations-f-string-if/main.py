@@ -53,3 +53,38 @@ height = 180
 # print('Score is: ' + score) # TypeError: can only concatenate str (not "int") to str
 print('Score is: ' + str(score))
 print(f'Score is: {score}, height is {height}')
+
+
+
+
+
+# day 3
+height = int(input('Please, enter you height '))
+
+if height > 180: # >, <, >=, <=, ==, !=
+    print('Tall')
+    age = int(input('What is your age? '))
+    if age > 20 and age > 21:
+        print('Allowed, old')
+    elif age < 10:
+        print('Kill him')
+    else: 
+        print('Not allowed, young')
+else: 
+    print('Small')
+
+# modulos operator (remainder of the division)
+if height % 2 == 0:
+    print('Even')
+else: 
+    print('Odd')
+
+a = 5
+b = 7
+ 
+if a >= b and a != b:
+    print("A")
+elif not a >= b and a != b:
+    print("B") # right answer
+else:
+    print("C")
