@@ -97,7 +97,7 @@ screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor('black')
 screen.title('Snake Game!')
-screen.tracer(0)
+screen.tracer(0) # to stop animation initially
 
 isGameOn = True
 snake = Snake()
