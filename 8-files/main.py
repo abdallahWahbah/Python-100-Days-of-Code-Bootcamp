@@ -24,3 +24,16 @@ for index, line in enumerate(linesList):
     linesList[index]= line.replace('\n', '')
     
 print(linesList)
+
+
+
+
+
+# conclusion (if you have a file that contains list of lines)
+# data = []
+# with open('file.txt') as data_file:
+#     lines = data_file.readlines()
+#     for line in lines:
+#         data.append(line.strip())
+
+# print(data)
