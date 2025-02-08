@@ -42,3 +42,44 @@ print(car1.sum)
 #     print(a, args, kw) # 4 (7, 3, 0) {'x':10, 'y':64}
  
 # all_aboard(4, 7, 3, 0, x=10, y=64)
+
+
+
+
+# timer (setInterval in js)
+import time
+
+# seconds = 60
+# while seconds > 0:
+#     time.sleep(1)
+#     print(seconds)
+#     seconds -= 1
+
+
+# (setTimeout in js)
+import threading
+
+def delayedFunction(param1, param2):
+    print(f'This is the first parameter: {param1}, second param is: {param2}')
+
+timer = threading.Timer(1.0, delayedFunction, args=("Alice", "Bob"))
+
+timer.start()
+# timer.cancel()
+
+
+# Dynamic typing
+
+# # 4 + 'asd' # error 
+a = 4
+print('aaaaaaaaaaaaaaa', a)
+a = 'Hello'
+print('aaaaaaaaaaaaaaa', a)
+
+
+
+# # join tuple and array
+myTuple = ("abdallah", "mahmoud", "wahbah")
+myList = ["abdallah", "mahmoud", "wahbah"]
+print('#'.join(myTuple))
+print('#'.join(myList))
