@@ -362,8 +362,8 @@ import random
 
 ####### Notes about scope
 # if we have a varibal in a global scope and the same name of the variable in a local scope, when prinitin in global >> value of global ---- when printing in local >> value in local
-# no block scope in python, if a varibale declared in if-statement, i can print it outside of it >>> but be careful, if the if-statement is in a function scope, you can't access the variable outside the function
 # if you created a variable within a function, it will be available only in this function 
+# no block scope in python, if a varibale declared in if-statement, i can print it outside of it >>> but be careful, if the if-statement is in a function scope, you can't access the variable outside the function
 # if you created a variable within a block (if-while-for)(anything that has indentation of column :), you are not creating a separate local scope
 
 # enemies = 1
